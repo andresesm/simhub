@@ -13,7 +13,7 @@
   let state = null;
   let rng = Math.random;
   let qteTimer = null;
-  const soundFiles={loan:['money.mp3','money2.mp3'],energy:['can.mp3'],bad:['badevent.mp3'],qte:['quicktimeevent.mp3'],start:['start.mp3'],creditNotice:['casheanotice.mp3'],gameover:['gameover.mp3','gameover2.mp3'],good:['goodevent.mp3'],funa:['funa.mp3'],hover:['hover2.mp3','hoverl .mp3'],click:['click.mp3']};
+  const soundFiles={loan:['money.mp3','money2.mp3'],energy:['can.mp3'],bad:['badevent.mp3'],qte:['quicktimeevent.mp3'],start:['start.mp3'],creditNotice:['casheanotice.mp3'],gameover:['gameover.mp3','gameover2.mp3'],good:['goodevent.mp3'],funa:['funa.mp3'],hover:['hover2.mp3','hover1.mp3'],click:['click.mp3']};
   let audioUnlocked=false,activeSceneKind=null;
   const audioChannels={ui:new Audio(),sfx:new Audio(),scene:new Audio()};
   Object.values(audioChannels).forEach(a=>{a.preload='auto'});
